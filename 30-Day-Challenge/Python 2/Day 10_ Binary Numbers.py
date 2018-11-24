@@ -1,6 +1,6 @@
     n = int(raw_input())
     list_repr = []
-    while n != 0:
+    while n:
         list_repr.append(n%2)
         n = n/2
     binary = list_repr[::-1]
