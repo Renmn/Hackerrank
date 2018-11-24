@@ -3,7 +3,7 @@ n = int(raw_input().strip())
 a = map(int, raw_input().strip().split(' '))
 swaps = 0
 Check = True
-while Check == True:
+while Check:
     internal_swaps = 0 
     for i in range(len(a)-1):
         if a[i] > a[i+1]:
